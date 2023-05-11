@@ -13,15 +13,10 @@ public class Pizza {
         }else{
             this.price=400;
         }
-        // your code goes here
     }
 
     public int getPrice(){
         return this.price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
     }
 
     public void addExtraCheese(){
