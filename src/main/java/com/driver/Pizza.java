@@ -1,7 +1,4 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
+
 
 package com.driver;
 
@@ -9,6 +6,14 @@ public class Pizza {
     private int price;
     private Boolean isVeg;
     private String bill;
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public void setVeg(Boolean veg) {
+        isVeg = veg;
+    }
 
     public Pizza(Boolean isVeg) {
         this.isVeg = isVeg;
